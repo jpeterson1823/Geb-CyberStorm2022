@@ -8,12 +8,12 @@ DEBUG = False
 
 # set the default server's IP address and port
 ip = "138.47.99.64"
-port = 33333
+port = 31337
 #ip = "localhost"
 #port = 1337
 
 # specifies the default time delta in seconds
-dt = 0.15
+dt = 0.06
 
 # create the socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -29,8 +29,8 @@ data = s.recv(4096).decode()
 
 while (data.rstrip("\n") != "EOF"):
     # output the data
-    #stdout.write(data)
-    #stdout.flush()
+    stdout.write(data)
+    stdout.flush()
 
     # start the "timer", get more data, and end the "timer"
     t0 = time()
@@ -45,9 +45,9 @@ while (data.rstrip("\n") != "EOF"):
 
     # convert to covert message's 0s and 1s
     if delta >= dt:
-        bcovert += '1'
-    else:
         bcovert += '0'
+    else:
+        bcovert += '1'
     # increment bitcounter
     bitcounter += 1
 
@@ -62,7 +62,6 @@ while (data.rstrip("\n") != "EOF"):
         bitcounter = 0
         # reset bcovert
         bcovert = ""
-    print(covert)
 
 # close the connection to the server
 s.close()
