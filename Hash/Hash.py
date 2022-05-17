@@ -1,9 +1,10 @@
 # a quick script I wrote to hash items in a list from a text file
 # used this for the Amnesia challenge during Cyber Storm
+# Unfortunately, Skyrim ate up most of my time, so I didn't
+# get to attempt any of the bigger challenges on my own. I did get
+# to assist
 import sys
 import hashlib
-
-#print(hashlib.sha256("123".encode()))
 
 
 list = []
