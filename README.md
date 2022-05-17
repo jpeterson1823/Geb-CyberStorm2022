@@ -1,13 +1,6 @@
 # Louisiana Tech: Cyber Storm 2022
 ## Team Geb
-Members:
-* Benjamin Sanguinetti
-* Gregory Whitehurst
-* John Peterson
-* Landon Rawson
-* Sam Evans
-* Trev Burkhalter
-* Wilbert Collins
+This is the branch that contains the scripts that Gregory Whitehurst has written this quarter.
 
 ## About this Repository
 This repository contains the scripts written for our class assignments.
