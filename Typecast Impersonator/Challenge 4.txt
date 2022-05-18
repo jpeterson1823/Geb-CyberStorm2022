@@ -1,0 +1,71 @@
+﻿Challenge #4
+Team GEB
+04-29-2021
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Decoded message:         Perseverantia est clavis!
+Time of Submission: 11:19:11
+
+
+Steps Taken: 
+1. Download generator file and attempt to run.
+2. Install numpy and tkinter.
+3. Run provided generator.
+4. Copy keypress character and timing data to parser script.
+5. Parse data into the format shown in class.
+6. Run fake-typer script and obtain the secret password.
+
+
+Member contribution:
+   1.  Benjamin Sanguinetti
+      * Wrote a script that doesn’t work
+      * Downloaded numpy
+   2. Gregory Whitehurst
+      *  Downloaded numpy and tkinter. Also attempted to decode text that did not go well. Team was, as they say, “zooming”.
+   3. John Peterson
+      * Provided a fake-typer script
+      * Obtained the secret password
+   4. Landon Rawson
+      * Analyzed code given for challenge. 
+   5. Sam Evans
+      * Wrote fake-typer script that did not work
+      * Downloaded tkinter and numpy 
+   6. Trev Burkhalter 
+      *  Also wrote a script that didn’t work.
+      * Had to pip install numpy and sudo install tkinter.
+   7. Wilbert Collins 
+      * Trying out a script to decode the message.
+      * Was here being the Hype Man of the group
+      *
